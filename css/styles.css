@@ -109,6 +109,10 @@ body {
 }
 
 /* schedule-section */
+#schedule .container-fluid {
+  padding: 13% 15%;
+}
+
 .card-counter {
    margin: 5px;
    padding: 20px 10px;
