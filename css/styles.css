@@ -23,11 +23,12 @@ body {
 
 /* navbar */
 #title .container-fluid {
-  padding: 40px 0 0 0;
+  padding: 40px 0 40px 0;
 }
+
 .nav-icon {
-  width: 130px;
-  height: 130px;
+  width: 135px;
+  height: 135px;
   border-radius: 100%;
   margin-left: 100px
 }
@@ -38,6 +39,7 @@ body {
 
 .navbar {
   padding: 0;
+  font-family: 'Oswald', sans-serif;
 }
 .navbar-nav {
   padding-right: 50px;
@@ -49,15 +51,24 @@ body {
 
 /* title */
 .title-image {
-  width: 50%;
-  padding-bottom: 90px;
+  width: 80%;
   position:relative;
-  right: 50px;
+  right: 60px;
 }
+
+/* .title-image-div {
+  background-image: url("../images/image1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat; */
+
 
 .title-text {
   padding: 5% 5% 7% 15%;
   text-align: left;
+}
+
+.h1-title {
+  font-weight: 700;
 }
 
 /* features section */
@@ -86,8 +97,8 @@ body {
 }
 
 .showcase-img {
-  max-width: 600px;
-  max-height: 450px;
+  max-width: 650px;
+  max-height: 500px;
   width: 50%;
   margin: 20px 30px 30px;
 }
@@ -99,13 +110,13 @@ body {
 }
 
 .hr-showcase {
-    border-style: dotted;
+    border-style: dashed;
     border-width: 7px;
     border-bottom: none;
     background-color: transparent;
     color: #483434;
     width: 10%;
-    margin: 25px auto;
+    margin: 25px auto 50px;
 }
 
 /* schedule-section */
